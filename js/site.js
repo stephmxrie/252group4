@@ -51,3 +51,12 @@ var options = {
 var chart = new google.visualization.BarChart(document.getElementById('myChart'));
   chart.draw(data, options);
 }
+
+
+function mOver(obj) {
+  obj.innerHTML = "Mental health is not a destination but a process. It's about how you drive, not where you're going."
+}
+
+function mOut(obj) {
+  obj.innerHTML = "Remember"
+}
