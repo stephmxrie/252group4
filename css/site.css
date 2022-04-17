@@ -7,7 +7,7 @@
 
 }
 body {
-  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  font: normal 16px/1.5 "times new roman", sans-serif;
   background: #456990;
   color: #fff;
   overflow-x: hidden;
@@ -15,14 +15,31 @@ body {
   text-align: center;
 }
 
+.img2 {
+  width: 800px;
+  height: auto;
+}
+
+.help1 {
+  border: solid 5px #e87b5e;
+  border-radius: 25px 0 25px 0;
+}
+.help2 {
+  border: solid 5px #fff;
+  border-radius: 25px 0 25px 0;
+}
+.help3 {
+  border: solid 5px #e87b5e;
+  border-radius: 25px 0 25px 0;
+}
+
 
 /* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .intro {
-  background: #f45b69;
-  padding: 100px 0;
-  color: #fff;
+    background-image: url("../img/cv.png");
+  padding: 300px 0;
 }
 
 .container {
@@ -32,18 +49,34 @@ body {
   text-align: center;
 
 }
+.container-fluid {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-h1, h2, h3, h4 {
+
+h1 {
+color: #d5512b;
+font-family: BIZ UDPMincho;
+text-align: center;
+
+}
+ h2, h3, h4 {
   font-size: 2.5rem;
-  color: #fff;
+  color: #3a3a3a;
+  font-family: BIZ UDPMincho;
+  text-align: center;
 }
 
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+
 .timeline ul {
-  background: #000;
+  background: #e6e6e6;
   padding: 50px 0;
 }
 
@@ -74,7 +107,7 @@ h1, h2, h3, h4 {
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #f45b69;
+  background: #3b746b;
   color: #fff;
 }
 
@@ -94,7 +127,7 @@ h1, h2, h3, h4 {
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #f45b69 transparent transparent;
+  border-color: transparent #3b746b transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -104,7 +137,7 @@ h1, h2, h3, h4 {
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #f45b69;
+  border-color: transparent transparent transparent #3b746b;
 }
 
 time {
@@ -124,7 +157,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #f45b69;
+  background: #d3522b;
 }
 
 .timeline ul li div {
