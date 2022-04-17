@@ -54,7 +54,7 @@ var chart = new google.visualization.BarChart(document.getElementById('myChart')
 
 
 function mOver(obj) {
-  obj.innerHTML = "Mental health is not a destination but a process. It's about how you drive, not where you're going."
+  obj.innerHTML = "“There is hope, even when your brain tells you there isn't.”― John Green."
 }
 
 function mOut(obj) {

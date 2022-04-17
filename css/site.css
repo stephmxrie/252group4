@@ -7,12 +7,16 @@
 
 }
 body {
-  font: normal 16px/1.5 "times new roman", sans-serif;
+  font: normal 18px/1.5 "times new roman", sans-serif;
   background: #456990;
   color: #fff;
   overflow-x: hidden;
   padding-bottom: 50px;
   text-align: center;
+}
+
+.flex-container {
+  font: normal 18px/1.5 "times new roman", sans-serif;  
 }
 
 .img2 {
@@ -39,7 +43,7 @@ body {
 
 .intro {
     background-image: url("../img/cv.png");
-  padding: 300px 0;
+  padding: 280px 0;
 }
 
 .container {
